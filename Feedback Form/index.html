@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feedback form</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" required />
+          <label>Name</label>
+        </div>
+        <div class="form-control1">
+          <label>Feedback: </label>
+          <input type="radio" id="poor" name="rev" value="poor"><label for="poor">Poor</label>
+          <input type="radio" id="good" name="rev" value="good"><label for="good">Good</label>
+          <input type="radio" id="exe" name="rev" value="exe"><label for="exe">Excellent</label>
+        </div>
+        <div class="form-control">
+          <input type="text" required />
+          <label>Email</label>
+        </div>
+        <button class="btn" onclick=aler()>Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
